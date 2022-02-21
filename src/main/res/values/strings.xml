@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">My Application2 -BASIC APP</string>
     <string name="edit_message">Enter a message</string>
-    <string name="button_send">\"SEND\"</string>
+    <string name="button_send">SEND</string>
 </resources>

@@ -40,24 +40,9 @@ public class MainActivity extends AppCompatActivity implements View.OnTouchListe
             }
         });
 
-        /*editText.setOnClickListener(new View.OnClickListener() {
-            @Override
-            //Log.i("funckja onClickListener", "dodano clicklistener...");
-            public void onClick(View v) {
-                //if (v == editText)
-                Log.i("funkcja onClick","edittext bd=edzie wyczyszcony");
 
-                Log.i("wartośc pola editText:", temp);
-                if (editText.getText().toString().equals(temp)) {
-                    editText.setText("");
-                    Log.i("funkcja onClick","edittext wyczyszczony2...");
-                }
-            }
-        });*/
     }
     public void sendMessage(View view){
-        //print("funkcja sendMessage 0 wciśnięto przycisk...");
-        Log.i("funkcja sendMessage","funkcja działa...");
         Intent intent = new Intent(this, DisplayMessageActivity.class);
         EditText editText = (EditText) findViewById(R.id.editTextTextPersonName);
 
